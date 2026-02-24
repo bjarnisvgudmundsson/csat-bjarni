@@ -138,7 +138,7 @@ export default function CompanyOnboarding() {
       <div style={{ background: HUGVIT_BLUE, padding: "24px 0 28px", position: "sticky", top: 0, zIndex: 10, boxShadow: "0 4px 24px rgba(26,60,97,0.18)" }}>
         <div style={{ maxWidth: 640, margin: "0 auto", padding: "0 24px" }}>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 18 }}>
-            <img src="/hugvit_logo.png" alt="Hugvit" style={{ height: 28, filter: "brightness(10)" }} />
+            <img src="/hugvit_logo.png" alt="Hugvit" style={{ height: 36, filter: "invert(1) brightness(2)" }} />
             <span style={{ fontSize: 13, color: "rgba(255,255,255,0.5)", letterSpacing: 0.5 }}>Undirbúningur vinnupakka</span>
           </div>
           <h1 style={{ fontSize: 17, fontWeight: 700, color: WHITE, margin: "0 0 4px" }}>Málstjórnun með gervigreind</h1>

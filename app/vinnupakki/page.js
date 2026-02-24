@@ -52,7 +52,7 @@ export default function LandingPage() {
 
       <nav style={{ position: "sticky", top: 0, zIndex: 50, background: WHITE, borderBottom: `1px solid ${GRAY_200}`, padding: "12px 24px" }}>
         <div style={{ maxWidth: 780, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-          <img src="/hugvit_logo.png" alt="Hugvit" style={{ height: 32 }} />
+          <img src="/hugvit_logo.png" alt="Hugvit" style={{ height: 36 }} />
           <div style={{ display: "flex", gap: 24, alignItems: "center" }}>
             <a href="#hvad" style={{ fontSize: 13, fontWeight: 600, color: GRAY_600, textDecoration: "none" }}>Hvað</a>
             <a href="#hvernig" style={{ fontSize: 13, fontWeight: 600, color: GRAY_600, textDecoration: "none" }}>Hvernig</a>
@@ -235,7 +235,7 @@ export default function LandingPage() {
       <footer style={{ background: HUGVIT_BLUE, padding: "36px 24px", color: "rgba(255,255,255,0.5)" }}>
         <div style={{ maxWidth: 780, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 16 }}>
           <div>
-            <img src="/hugvit_logo.png" alt="Hugvit" style={{ height: 24, filter: "brightness(10)" }} />
+            <img src="/hugvit_logo.png" alt="Hugvit" style={{ height: 28, filter: "invert(1) brightness(2)" }} />
             <p style={{ fontSize: 13, margin: "6px 0 0" }}>Tunguháls 19</p>
           </div>
           <div style={{ textAlign: "right", fontSize: 13 }}><p style={{ margin: "0 0 4px" }}>510 3100</p><p style={{ margin: 0 }}>hugvit.is</p></div>
